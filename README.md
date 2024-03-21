@@ -4,7 +4,7 @@
 ## How to install
 
 ### Method 1 : With docker
-`docker run -d -p <external port>:9591 --name cs2_exporter --restart=always revij/cs2_exporter`
+`docker run -d -p <external port>:9591 --name cs2_exporter --restart=always ghcr.io/revij/cs2_exporter:latest`
 
 ### Method 2 : Download sources and run
 
