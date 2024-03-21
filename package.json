@@ -1,24 +1,23 @@
 {
-  "name": "srcds-exporter",
-  "version": "2.1.0",
-  "description": "Prometheus Exporter for SRCDS game servers such as CSGO, GMod...",
+  "name": "cs2-exporter",
+  "version": "1.0.0",
+  "description": "A prometheus Exporter for CS2 game servers",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Unyxos/srcds-exporter.git"
+    "url": "git+https://github.com/revij/cs2-exporter.git"
   },
-  "author": "Corentin Closs <me@corentincloss.fr>",
+  "author": "Ioannis Karamperis <ioannis@fragnet.net>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Unyxos/srcds-exporter/issues"
+    "url": "https://github.com/revij/cs2-exporter/issues"
   },
-  "homepage": "https://github.com/Unyxos/srcds-exporter#readme",
+  "homepage": "https://github.com/revij/cs2-exporter#readme",
   "dependencies": {
     "@unyxos/working-rcon": "^0.2.10",
-    "dotenv": "^16.0.0",
     "express": "^4.17.1",
     "express-basic-auth": "^1.2.1",
     "express-joi-validation": "^5.0.1",

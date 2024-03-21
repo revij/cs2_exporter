@@ -1,6 +1,6 @@
-FROM node:16.14.2-alpine
+FROM node:20.11.1-alpine
 
-WORKDIR /srcds_exporter
+WORKDIR /cs2_exporter
 
 COPY . .
 RUN npm install pm2 -g
